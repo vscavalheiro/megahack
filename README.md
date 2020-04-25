@@ -1,0 +1,2 @@
+# megahack
+Repositório do hackton. 
