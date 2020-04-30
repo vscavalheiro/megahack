@@ -16,3 +16,12 @@ Vitor
 3 - Entre no diretorio do projeto
 4 - De o comando "expo start"
 
+iasdubuasbdf
+assa
+df
+asdf
+sa
+df
+as
+dfas
+df
