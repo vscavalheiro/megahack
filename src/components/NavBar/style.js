@@ -9,28 +9,63 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
         height: 60,
-        backgroundColor: COLORS.BLUE_1
+        paddingVertical: 10,
+        paddingHorizontal: 30,
+        backgroundColor: '#ffffff',
+        borderTopColor: COLORS.BLUE_4,
+        borderTopWidth: 3
     },
 
     bordItem: {
         flex: 1,
         borderColor: COLORS.BLUE_6,
-        borderWidth: 2,
         borderRadius: 10,
         marginVertical: 5,
         marginHorizontal: 2.5,
-        overflow: "hidden"
     },
 
     navItem: {
         flex: 1,
-    },
-
-    viewWithText: {
-        flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: COLORS.BLUE_1
+    },
+
+    iconHouse: {
+        flex: 1,
+        width:30,
+        height:30,
+        resizeMode:'contain',
+        backgroundColor: '#ffffff'
+    },
+
+    iconMoney: {
+        flex: 1,
+        width:30,
+        height:30,
+        resizeMode:'contain',
+        backgroundColor: '#ffffff'
+    },
+
+    iconPaper: {
+        flex: 1,
+        width:30,
+        height:30,
+        resizeMode:'contain',
+        backgroundColor: '#ffffff'
+    },
+
+    iconRobot: {
+        flex: 1,
+        width:35,
+        height:35,
+        resizeMode:'contain',
+        backgroundColor: '#ffffff'
+    },
+    
+    image: {
+        flex: 1,
+        width: 22,
+        backgroundColor: '#ffffff'
     }
 });
 
