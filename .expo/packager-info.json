@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 10820,
+  "expoServerNgrokUrl": "https://v3-52z.rmrache.megahack.exp.direct",
+  "packagerNgrokUrl": "https://packager.v3-52z.rmrache.megahack.exp.direct",
+  "ngrokPid": 8596,
   "webpackServerPort": null
 }

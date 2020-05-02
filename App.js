@@ -1,13 +1,9 @@
 import React, {Fragment} from 'react';
 
-import Login from './src/pages/Login'
-import NavBar from './src/components/NavBar/NavBar'
+import Menu from './src/pages/Menu/menu'
 
 export default function App() {
   return (
-    <Fragment>
-      <Login /> 
-      <NavBar />
-    </Fragment>
+    <Menu />
   );
 }
