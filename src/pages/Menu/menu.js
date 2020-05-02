@@ -25,6 +25,7 @@ const Texto = () => {
                 <Fragment>
                     <Home />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
+                    currentSecao={secaoMenu}
                     />
                 </Fragment> 
             )
@@ -33,6 +34,7 @@ const Texto = () => {
                 <Fragment>
                     <Gastos />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
+                    currentSecao={secaoMenu}
                     />
                 </Fragment> 
                 )
@@ -41,6 +43,7 @@ const Texto = () => {
                 <Fragment>
                     <Chat />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
+                    currentSecao={secaoMenu}
                     />
                 </Fragment> 
                 )
@@ -49,6 +52,7 @@ const Texto = () => {
                 <Fragment>
                     <Cards />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
+                    currentSecao={secaoMenu}
                     />
                 </Fragment> 
                 )
