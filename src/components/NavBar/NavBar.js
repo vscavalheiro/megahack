@@ -2,12 +2,12 @@ import React from 'react';
 import { Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import styles from "./style.js";
 
-export default NavBar = () => {
+export default NavBar = (props) => {
 
     return(
         <View style = {styles.navBar}>
             <View style = {styles.bordItem}>
-                <TouchableOpacity style = {styles.navItem}>
+                <TouchableOpacity style = {styles.navItem} onPress={props.f_setSecaoMenu.bind(this, 0)}>
                     <View style = {styles.viewWithText}>
                         <Text>
                             GERAL
@@ -17,7 +17,7 @@ export default NavBar = () => {
             </View>
 
             <View style = {styles.bordItem}>
-                <TouchableOpacity style = {styles.navItem}>
+                <TouchableOpacity style = {styles.navItem} onPress={props.f_setSecaoMenu.bind(this, 1)}>
                     <View style = {styles.viewWithText}>
                         <Text>
                             GASTOS
@@ -27,7 +27,7 @@ export default NavBar = () => {
             </View>
 
             <View style = {styles.bordItem}>
-                <TouchableOpacity style = {styles.navItem}>
+                <TouchableOpacity style = {styles.navItem} onPress={props.f_setSecaoMenu.bind(this, 2)}>
                     <View style = {styles.viewWithText}>
                         <Text>
                             CHAT
@@ -37,7 +37,7 @@ export default NavBar = () => {
             </View>
 
             <View style = {styles.bordItem}>
-                <TouchableOpacity style = {styles.navItem}>
+                <TouchableOpacity style = {styles.navItem} onPress={props.f_setSecaoMenu.bind(this, 3)}>
                     <View style = {styles.viewWithText}>
                         <Text>
                             CARDS
