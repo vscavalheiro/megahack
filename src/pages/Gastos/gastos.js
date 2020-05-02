@@ -1,13 +1,14 @@
 import React, {Fragment} from 'react';
-import { Text } from 'react-native'
-import styles from './styles'
+import { Text , View} from 'react-native';
+import styles from './styles';
+import ItemGasto from '../../components/ItemGasto/itemGasto';
 
 
 const Gastos = () => {
     return (
-        <Fragment>
-            <Text>Gastos</Text>
-        </Fragment>
+        <View style={styles.page}>
+            <ItemGasto />
+        </View>
     )
 
 }
