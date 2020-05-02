@@ -1,35 +1,116 @@
 {
-    "card":[
+    "cards":[
         {
-            "titulo": "abcde",
+            "titulo": "Card 1",
             "key": 1,
             "n_ideias": 2,
+            "assunto": [1,2,4],
             "ideias":[
-                "asd",
-                "qwe"
+                "Essa é a ideia 1 do card 1",
+                "Essa é a ideia 2 do card 1"
             ]
-
         },
         {
-            "titulo": "fghij",
+            "titulo": "Card 2",
             "key": 2,
             "n_ideias": 3,
+            "assunto": [2,4],
             "ideias":[
-                "qwe",
-                "qyrty",
-                "ovinvo"
+                "Essa é a ideia 1 do card 2",
+                "Essa é a ideia 2 do card 2",
+                "Essa é a ideia 3 do card 2"
             ]
-
         },
         {
-            "titulo": "klmno",
+            "titulo": "Card 3",
             "key": 3,
-            "n_ideias": 2,
+            "n_ideias": 4,
+            "assunto": [3,4],
             "ideias":[
-                "fgnfng",
-                "fgfnfg"
+                "Essa é a ideia 1 do card 3",
+                "Essa é a ideia 2 do card 3",
+                "Essa é a ideia 3 do card 3",
+                "Essa é a ideia 4 do card 3"
             ]
-
+        },
+        {
+            "titulo": "Card 4",
+            "key": 4,
+            "n_ideias": 2,
+            "assunto": [1,2,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 4",
+                "Essa é a ideia 2 do card 4"
+            ]
+        },
+        {
+            "titulo": "Card 5",
+            "key": 5,
+            "n_ideias": 3,
+            "assunto": [2,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 5",
+                "Essa é a ideia 2 do card 5",
+                "Essa é a ideia 3 do card 5"
+            ]
+        },
+        {
+            "titulo": "Card 6",
+            "key": 6,
+            "n_ideias": 4,
+            "assunto": [3,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 6",
+                "Essa é a ideia 2 do card 6",
+                "Essa é a ideia 3 do card 6",
+                "Essa é a ideia 4 do card 6"
+            ]
+        },
+        {
+            "titulo": "Card 7",
+            "key": 7,
+            "n_ideias": 4,
+            "assunto": [3,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 7",
+                "Essa é a ideia 2 do card 7",
+                "Essa é a ideia 3 do card 7",
+                "Essa é a ideia 4 do card 7"
+            ]
+        },
+        {
+            "titulo": "Card 8",
+            "key": 8,
+            "n_ideias": 2,
+            "assunto": [1,2,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 8",
+                "Essa é a ideia 2 do card 8"
+            ]
+        },
+        {
+            "titulo": "Card 9",
+            "key": 9,
+            "n_ideias": 5,
+            "assunto": [2,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 9",
+                "Essa é a ideia 2 do card 9",
+                "Essa é a ideia 3 do card 9"
+            ]
+        },
+        {
+            "titulo": "Card 10",
+            "key": 10,
+            "n_ideias": 4,
+            "assunto": [3,4],
+            "ideias":[
+                "Essa é a ideia 1 do card 10",
+                "Essa é a ideia 2 do card 10",
+                "Essa é a ideia 3 do card 10",
+                "Essa é a ideia 4 do card 10"
+            ]
         }
     ]
 }
+                
