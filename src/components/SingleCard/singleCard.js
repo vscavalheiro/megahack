@@ -1,6 +1,6 @@
 import Modal from 'react-native-modal';
 import React, {Fragment, useState} from 'react';
-import { Text, View, TouchableOpacity } from 'react-native'
+import { Text, View, TouchableOpacity, ScrollView } from 'react-native'
 import styles from './styles'
 
 
@@ -31,14 +31,22 @@ const Card = (props) => {
                 animationIn="zoomIn"
                 animationOut="zoomOut"
             >
-                <View style={styles.popup}> 
-                    <View style={styles.popupHeader}>
-                         <Text style={styles.popupTitle}>{props.cardInfo.titulo}</Text>
+                <ScrollView>
+                    <View style={styles.popup}> 
+                        <View style={styles.popupHeader}>
+                            <Text style={styles.popupTitle}>{props.cardInfo.titulo}</Text>
+                        </View>
+                        <View style={styles.popupTextArea}>
+                            {props.cardInfo.ideias.map((ideia, index) => {
+                                return <View style={styles.ideias_back}><Text style={styles.popupText}> ❁ {ideia}</Text></View>
+                            })}                        
+                        </View>
+                        <View style={styles.autor}>
+                            <Text style={styles.text_autor}>Autor: {props.cardInfo.autor}</Text>
+
+                        </View>
                     </View>
-                    <View style={styles.popupTextArea}>
-                        <Text style={styles.popupText}>{props.cardInfo.ideias}</Text>
-                    </View>
-                </View>
+                </ScrollView>
                 
             </Modal>    
             
