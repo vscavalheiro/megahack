@@ -6,14 +6,18 @@ const styles = StyleSheet.create({
         color: COLORS.BLUE_3,
     },
     cabecalho: {
+        backgroundColor: COLORS.GREY_1,  
+        borderBottomWidth: 2.5,
+        borderBottomColor: COLORS.BLUE_4,
         height: 80,
-        padding: 40,
-        backgroundColor: COLORS.BLUE_4,       
-
+        
     },
     titulo_cabecalho:{
-        fontSize: 20,
+        fontSize: 23,
         textAlign: "center",
+        paddingTop: 38,
+        color: COLORS.BLUE_4,
+        fontWeight: '700'
     },
 })
 
