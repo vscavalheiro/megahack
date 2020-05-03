@@ -21,7 +21,11 @@ const styles = StyleSheet.create({
     },
 
     valor: {
-
+        borderRadius: 10,
+        borderWidth: 1,
+        borderColor: '#ffffff',
+        paddingVertical: 4,
+        paddingHorizontal: 8,
         
     },
 
