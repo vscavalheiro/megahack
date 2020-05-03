@@ -21,6 +21,33 @@ const styles = StyleSheet.create({
         fontSize: 16,
         paddingVertical: 5,
         paddingLeft: 30
+    },
+    popup: {
+        height:400,
+        borderRadius:15,
+        backgroundColor:'#ffffff'
+    },
+    popupHeader: {
+        borderTopStartRadius:15,
+        borderTopEndRadius:15,
+        backgroundColor:COLORS.BLUE_3,
+        paddingBottom:30,
+        borderBottomWidth:1,
+        borderBottomColor:COLORS.BLUE_5
+    },
+    popupTitle: {
+        fontSize:20,
+        left:20,
+        right:20,
+        top:10
+    },
+    popupTextArea: {
+        width:"80%",
+        top:20,
+        left:"10%",
+    },
+    popupText: {
+        fontSize: 12,
     }
 })
 
