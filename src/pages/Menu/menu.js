@@ -41,7 +41,7 @@ const Texto = () => {
         case 2:
             return (
                 <Fragment>
-                    <Chat />
+                    <Cards />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
@@ -50,7 +50,7 @@ const Texto = () => {
         case 3:
             return (
                 <Fragment>
-                    <Cards />
+                    <Chat />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
