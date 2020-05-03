@@ -46,7 +46,7 @@ const ItemGasto = props => {
 
             {isClicked?
             <View style = {{ marginHorizontal: 10}} onLayout = {(event) => setSliderSize(event.nativeEvent.layout.width) }>
-                <AvaliacaoTarefa sliderLength = {sliderSize} f_setNota={handleSetNota} />
+                <AvaliacaoTarefa sliderLength = {sliderSize} f_setNota={handleSetNota} value = {nota} />
                 <ClassificacaoGasto f_setCategoria={handleSetCategoria} categoria={categoria} />
             </View>
             :

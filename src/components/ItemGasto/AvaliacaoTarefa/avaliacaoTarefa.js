@@ -22,7 +22,7 @@ const AvaliacaoTarefa = (props) => {
                                 width: 15,
                                 height: 15
                             }}
-                            values = {[5]}
+                            values = {[props.value]}
                             min = {0}
                             max = {10}
                             step = {1}
