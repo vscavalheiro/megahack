@@ -1,0 +1,24 @@
+[
+    {
+        "nome": "Raquete",
+        "valor": 200,
+        "dia": 10,
+        "mes": 2,
+        "icone": 0,
+        "avaliacao": 5,
+        "categoria": 0,
+        "foi_avaliado": false,
+        "foi_clikado": false
+    },
+    {
+        "nome": "Bola de bilhar",
+        "valor": 400,
+        "dia": 11,
+        "mes": 2,
+        "icone": 0,
+        "avaliacao": 5,
+        "categoria": 0,
+        "foi_avaliado": false,
+        "foi_clikado": false
+    }
+]
