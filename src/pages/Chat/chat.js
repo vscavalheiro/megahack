@@ -85,7 +85,7 @@ const Chat = (props) => {
       <Fragment>
           <View>
               <View style={styles.cabecalho}>
-                  <Text style={styles.titulo_cabecalho}>Cards para você</Text>
+                  <Text style={styles.titulo_cabecalho}>Chat</Text>
               </View>
               <View>
                   <ChatBot 
