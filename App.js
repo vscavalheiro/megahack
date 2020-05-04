@@ -12,7 +12,7 @@ export default function App() {
   const ROBO_PAGE = 1;
   const MENU_PAGE = 2;
 
-  let inicioSecaoApp = MENU_PAGE
+  let inicioSecaoApp = CADASTRO_PAGE
 
   // seções do app
   // 0=cadastro 1=robo 2=menu

@@ -9,6 +9,7 @@ const Cadastro = (props) => {
     const [nome,setNome] = useState('');
     const [sobrenome,setSobrenome] = useState('');
     const [renda,setRenda] = useState('');
+    const [economia,setEconomia] = useState('');
 
     // Inicialmete o usuário tem como tags habilitadas todas as tags
     const [activetags, setActiveTags] = useState([
@@ -54,6 +55,7 @@ const Cadastro = (props) => {
         nome:nome,
         sobrenome:sobrenome,
         renda:renda,
+        economia:economia,
         tags:activetags.map((item)=> { return(item.tag)} )
     }
             
@@ -68,7 +70,10 @@ const Cadastro = (props) => {
                 <TextInput style={styles.input} placeholder='Digite o seu sobrenome' onChangeText={(input) => {setSobrenome(input)}} value={sobrenome}/>
                 <Text style={styles.texto}>Renda média mensal :</Text>
                 <TextInput style={styles.input} placeholder='Digite o sua renda mensal' onChangeText={(input) => {setRenda(input)}} value={renda}/>
+                <Text style={styles.texto}>Quanto você deseja economizar por mês :</Text>
+                <TextInput style={styles.input} placeholder='Digite uma quantia' onChangeText={(input) => {setEconomia(input)}} value={economia}/>
                 <TagCardsSelector f_handleSetTags={handleSetTags} activetags={activetags} disabletags={disabletags}/>
+                
            </ScrollView>
            <TouchableOpacity style={{alignSelf:"flex-end"}} onPress={() => {props.f_setSecaoApp(1), props.f_setDataCadastro(newDataCadastro)}}>
                <Text style={styles.next}>Next   ></Text>
