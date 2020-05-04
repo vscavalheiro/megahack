@@ -3,8 +3,6 @@ import { Text, AsyncStorage, TextInput, ScrollView, TouchableOpacity } from 'rea
 import styles from './styles'
 
 import TagCardsSelector from '../../components/TagsCardsSelector/tagCardsSelector'
-import Texto from '../Menu/menu';
-
 const Cadastro = (props) => {
 
     // Inicalizalççao das constantes para serem armazenadas no cadatro
@@ -51,24 +49,15 @@ const Cadastro = (props) => {
         
     }
 
-    // Função que salva as informações do usuario na memoria
-    // Ela é salva como 'dataCadastro'
-    const saveDataCadastro = () => {
-        let newDataCadastro = {
-            nome:nome,
-            sobrenome:sobrenome,
-            renda:renda,
-            tags:activetags.map((item)=> { return(item.tag)} )
-        }
-        console.log(newDataCadastro)
-        AsyncStorage.setItem('dataCadastro', JSON.stringify(newDataCadastro))
-        .then(()=>{
-        console.log('*** Data cadastro salva');
-        })
-        .catch((error)=>{
-        console.log(error);
-        }) 
+
+    let newDataCadastro = {
+        nome:nome,
+        sobrenome:sobrenome,
+        renda:renda,
+        tags:activetags.map((item)=> { return(item.tag)} )
     }
+            
+    
 
     return (
         <Fragment>
@@ -81,7 +70,7 @@ const Cadastro = (props) => {
                 <TextInput style={styles.input} placeholder='Digite o sua renda mensal' onChangeText={(input) => {setRenda(input)}} value={renda}/>
                 <TagCardsSelector f_handleSetTags={handleSetTags} activetags={activetags} disabletags={disabletags}/>
            </ScrollView>
-           <TouchableOpacity style={{alignSelf:"flex-end"}} onPress={() => {props.f_setSecaoApp(1), saveDataCadastro() }}>
+           <TouchableOpacity style={{alignSelf:"flex-end"}} onPress={() => {props.f_setSecaoApp(1), props.f_setDataCadastro(newDataCadastro)}}>
                <Text style={styles.next}>Next   ></Text>
            </TouchableOpacity>
         </Fragment>
