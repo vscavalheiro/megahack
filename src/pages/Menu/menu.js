@@ -7,8 +7,9 @@ import Home from '../../pages/Home/home'
 import Gastos from '../../pages/Gastos/gastos'
 import Cards from '../../pages/Cards/cards'
 import Chat from '../../pages/Chat/chat'
+import { ShadowPropTypesIOS } from 'react-native';
 
-const Texto = () => {
+const Texto = (props) => {
 
     // seções do menu
     // 0=home 1=gastos 2=chat 3=cards
@@ -50,7 +51,10 @@ const Texto = () => {
         case 3:
             return (
                 <Fragment>
-                    <Chat />
+                    <Chat
+                    dataCadastro={props.dataCadastro}
+                    dataRobo={props.dataRobo}
+                    />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />

@@ -18,6 +18,7 @@ export default function App() {
   // 0=cadastro 1=robo 2=menu
   const [ secaoApp, setSecaoApp ] = useState(inicioSecaoApp); 
   const [ dataCadastro, setDataCadastro ] = useState({}); 
+  const [ dataRobo, setDataRobo ] = useState({}); 
 
   const handleSetSecaoApp = (num) => {
     setSecaoApp(num)
@@ -25,6 +26,10 @@ export default function App() {
 
   const handleSetDataCadastro = (obj) => {
     setDataCadastro(obj)
+  }
+
+  const handleSetDataRobo = (obj) => {
+    setDataRobo(obj)
   }
 
   switch (secaoApp) {
@@ -38,11 +43,15 @@ export default function App() {
       return (
         <Robo
           f_setSecaoApp={handleSetSecaoApp}
+          f_setDataRobo={handleSetDataRobo}
           nome={dataCadastro.nome}/>
       );
     case MENU_PAGE:
       return (
-        <Menu/>
+        <Menu
+          dataCadastro={dataCadastro}
+          dataRobo={dataRobo}
+          />
       );
   }
   

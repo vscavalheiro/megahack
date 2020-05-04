@@ -4,15 +4,25 @@ import styles from './styles';
 import ChatBot from 'react-native-chatbot';
 import COLORS from '../../themes/colors.js'
 
-const steps = [
+import RoboIcon from '../../components/RoboImagem/roboIcon'
+
+
+
+const Chat = (props) => {
+
+  console.log(props)
+
+  const intro = 'Olá ' + props.dataCadastro.nome + ', me chamo ' + props.dataRobo.roboName
+  
+  const steps = [
     {
       id: '1',
-      message: 'Olá (Nome do Json), me chamo (Nome do JSON)!',
+      message: intro,
       trigger: '2',
     },
     {
         id: '2',
-        component: <Image style={{width:100,height:100}}source={require('../../assets/robos/robo' + 0 + '.png')}/>,
+        component: <RoboIcon num={props.dataRobo.icon}/>,
         asMessage: true,
         trigger: 'test'
       },
@@ -71,29 +81,28 @@ const steps = [
      },
   ];
 
-const Chat = () => {
-    return (
-        <Fragment>
-            <View>
-                <View style={styles.cabecalho}>
-                    <Text style={styles.titulo_cabecalho}>Cards para você</Text>
-                </View>
-                <View>
-                    <ChatBot 
-                        
-                        // Conversação do Bot //
-                        steps={steps}
-                        
-                        // Cores //
-                        botBubbleColor = {COLORS.BLUE_4}
-                        optionBubbleColor = {COLORS.BLUE_3}
-                        footerStyle = {{opacity:0}}
-                        contentStyle = {{marginBottom:168, marginTop:10}}
-                    />
-                </View>
-            </View>
-        </Fragment>
-    )
+  return (
+      <Fragment>
+          <View>
+              <View style={styles.cabecalho}>
+                  <Text style={styles.titulo_cabecalho}>Cards para você</Text>
+              </View>
+              <View>
+                  <ChatBot 
+                      
+                      // Conversação do Bot //
+                      steps={steps}
+                      
+                      // Cores //
+                      botBubbleColor = {COLORS.BLUE_4}
+                      optionBubbleColor = {COLORS.BLUE_3}
+                      footerStyle = {{opacity:0}}
+                      contentStyle = {{marginBottom:168, marginTop:0}}
+                  />
+              </View>
+          </View>
+      </Fragment>
+  )
 
 }
 

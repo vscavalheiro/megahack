@@ -21,23 +21,10 @@ const Robo = (props) => {
         }
     }
     
-
-    const saveDataRobo = () => {
-        let newDataRobo = {
-            nome:roboName,
-            icon:icon 
-        }
-        console.log(newDataRobo)
-        AsyncStorage.setItem('dataRobo', JSON.stringify(newDataRobo))
-        .then(()=>{
-        console.log('*** Data robo salva');
-        })
-        .catch((error)=>{
-        console.log(error);
-        }) 
+    let newDataRobo = {
+        roboName:roboName,
+        icon:icon
     }
-    
-
 
     return(
         <Fragment>
@@ -71,7 +58,7 @@ const Robo = (props) => {
 
             </ScrollView>
             
-            <TouchableOpacity style={{alignSelf:"flex-end"}} onPress={() => {props.f_setSecaoApp(2), saveDataRobo() }}>
+            <TouchableOpacity style={{alignSelf:"flex-end"}} onPress={() => {props.f_setSecaoApp(2), props.f_setDataRobo(newDataRobo) }}>
                     <Text style={styles.next}>Next   ></Text>
                 </TouchableOpacity>
         </Fragment>
