@@ -7,7 +7,6 @@ import Home from '../../pages/Home/home'
 import Gastos from '../../pages/Gastos/gastos'
 import Cards from '../../pages/Cards/cards'
 import Chat from '../../pages/Chat/chat'
-import { ShadowPropTypesIOS } from 'react-native';
 
 const Texto = (props) => {
 
@@ -20,11 +19,12 @@ const Texto = (props) => {
         setSecaoMenu(num)
     }
 
+
     switch (secaoMenu) {
         case 0:
           return (
                 <Fragment>
-                    <Home />
+                    <Home dataCadastro={props.dataCadastro}/>
                     <NavBar
                     f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}

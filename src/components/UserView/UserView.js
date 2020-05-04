@@ -7,7 +7,7 @@ import COLORS from '../../themes/colors';
 
 
 
-const UserView = () => {
+const UserView = (props) => {
   
     return (
         <ScrollView style={{marginBottom:60}}>
@@ -15,9 +15,8 @@ const UserView = () => {
                 <View style={styles.header_categoria}>
                     <Text style={styles.titulo_categorias}>Usuário</Text>
                 </View>
-                <Text style={styles.nome}>{DataUser.nome} {DataUser.sobrenome}</Text>
-                <Text style={styles.nome}>{DataUser.idade} anos</Text>
-                <Text style={styles.nome}>Renda mensal: {DataUser.renda_mensal} R$</Text>
+                <Text style={styles.nome}>{props.dataCadastro.nome} {props.dataCadastro.sobrenome}</Text>
+                <Text style={styles.nome}>Renda mensal: {props.dataCadastro.renda} R$</Text>
             </View>
             <View style={styles.view_user}>
                 <View style={styles.header_categoria}>
