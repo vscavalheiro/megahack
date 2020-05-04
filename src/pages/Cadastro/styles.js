@@ -4,6 +4,7 @@ import COLORS from '../../themes/colors.js'
 const styles = StyleSheet.create({
     texto: {
         color: COLORS.BLUE_3,
+        marginVertical:5,
     },
 
     input: {

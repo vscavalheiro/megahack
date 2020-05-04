@@ -1,26 +1,21 @@
-import React, {Fragment, useState} from 'react';
+import React, {Fragment, useState} from 'react'
 
 import Menu from './src/pages/Menu/menu'
-import Cadastro from './src/pages/Cadastro/cadastro';
+import Cadastro from './src/pages/Cadastro/cadastro'
+import Robo from './src/pages/Robo/robo'
 
-import getDataCadastro from './src/data/getDataCadastro'
+
 
 export default function App() {
 
   const CADASTRO_PAGE = 0;
-  const MENU_PAGE = 1;
+  const ROBO_PAGE = 1;
+  const MENU_PAGE = 2;
 
-
-  let inicioSecaoApp = CADASTRO_PAGE
-
-  if (getDataCadastro !== null) {
-    // Caso queira reiniciar o cadastro, comente a linha abaixo, do contrario deixe descomentado
-
-    inicioSecaoApp = MENU_PAGE
-  }
+  let inicioSecaoApp = MENU_PAGE
 
   // seções do app
-  // 0=cadastro 1=menu
+  // 0=cadastro 1=robo 2=menu
   const [ secaoApp, setSecaoApp ] = useState(inicioSecaoApp); 
 
   const handleSetSecaoApp = (num) => {
@@ -28,11 +23,15 @@ export default function App() {
   }
 
   switch (secaoApp) {
-    case 0:
+    case CADASTRO_PAGE:
       return (
         <Cadastro f_setSecaoApp={handleSetSecaoApp} />
       );
-    case 1:
+    case ROBO_PAGE:
+      return (
+        <Robo f_setSecaoApp={handleSetSecaoApp}/>
+      );
+    case MENU_PAGE:
       return (
         <Menu />
       );

@@ -10,7 +10,7 @@ const Cadastro = (props) => {
     // Inicalizalççao das constantes para serem armazenadas no cadatro
     const [nome,setNome] = useState('');
     const [sobrenome,setSobrenome] = useState('');
-    const [renda,setRenda] = useState(0);
+    const [renda,setRenda] = useState('');
 
     // Inicialmete o usuário tem como tags habilitadas todas as tags
     const [activetags, setActiveTags] = useState([
