@@ -5,11 +5,11 @@
         "n_ideias": 5,
         "assunto": [1,2,4],
         "ideias":[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-            "Lorem ipsumt, consectetur adipiscing elit, sed do eiusmod t dolor sit ameempor incididunt ut labore et dolore",
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
-            "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
-            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
+            "Saiba qual a sua principal motivação, suas metas, seus sonhos. Faça algumas perguntas para si mesma: quais são seus hábitos financeiros? O dinheiro é para você um vilão ou aliado?",
+            "Conheça os seus números (renda e gastos), quando iniciamos um projeto de planejamento financeiro pessoal, a primeira ação é fazermos o registro de todos os gastos.",
+            "Defina seus projetos, é preciso ter foco, disciplina e perseverança.",
+            "Elabore um orçamento financeiro. Você poderá utilizar uma planilha ou um aplicativo gratuito desenvolvido para orçamento financeiro pessoal e controle de gastos.",
+            "Poupe para investir. Defina metas de poupança mensal somente após liquidar dívidas não planejadas."
             
         ],
         "autor": "Mark Johnson"
@@ -20,7 +20,7 @@
         "n_ideias": 3,
         "assunto": [2,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
             "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
         ],
@@ -32,10 +32,9 @@
         "n_ideias": 4,
         "assunto": [3,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
-            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore",
-            "Essa é a ideia 4 do card 3"
+            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
         ],
         "autor": "Aurelio de Campos"
     },
@@ -45,7 +44,7 @@
         "n_ideias": 2,
         "assunto": [1,2,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore"
         ],
         "autor": "Rafael Moreira Mano"
@@ -56,7 +55,7 @@
         "n_ideias": 3,
         "assunto": [2,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
             "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
         ],
@@ -65,26 +64,24 @@
     {
         "titulo": "Controlando a compulsão",
         "key": 6,
-        "n_ideias": 4,
+        "n_ideias": 3,
         "assunto": [3,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
-            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore",
-            "Essa é a ideia 4 do card 6"
+            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
         ],
         "autor": "Nanda Benitez"
     },
     {
         "titulo": "Como criar novos hábitos",
         "key": 7,
-        "n_ideias": 4,
+        "n_ideias": 3,
         "assunto": [3,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
-            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore",
-            "Essa é a ideia 4 do card 7"
+            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
         ],
         "autor": "Denis Busenitz"
     },
@@ -94,7 +91,7 @@
         "n_ideias": 2,
         "assunto": [1,2,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore"
         ],
         "autor": "Mark Rooney"
@@ -103,26 +100,13 @@
     {
         "titulo": "Pare de ser idiota",
         "key": 9,
-        "n_ideias": 5,
+        "n_ideias": 3,
         "assunto": [2,4],
         "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
+            "Sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
             "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
             "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore"
         ],
         "autor": "James Koston"
-    },
-    {
-        "titulo": "Pau no cu de quem ta lendo",
-        "key": 10,
-        "n_ideias": 4,
-        "assunto": [3,4],
-        "ideias":[
-            "t, sed do eiusmod t dolor sitLorem ipsumt, consectetur adipiscing eli ameempor incididunt ut labore et dolore",
-            "Lorem ipsumt, consecit ameempor incididunt ut labotetur adipiscing elit, sed do eiusmod t dolor sre et dolore",
-            "Lorem ipssmod t dolor sit ameempor inumt, consectetur adipiscing elit, sed do eiucididunt ut labore et dolore",
-            "Essa é a ideia 4 do card 10"
-        ],
-        "autor": "Vitor Cavalheiro"
     }
 ]                

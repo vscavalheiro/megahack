@@ -40,7 +40,7 @@ const Card = (props) => {
                         <ScrollView>
                             <View style={styles.popupTextArea}>
                                 {props.cardInfo.ideias.map((ideia, index) => {
-                                    return <View style={styles.ideias_back}><Text style={styles.popupText}> ❁ {ideia}</Text></View>
+                                    return <View style={styles.ideias_back}><Text style={styles.popupText}> - {ideia}</Text></View>
                                 })}                        
                             </View>
                         </ScrollView>
