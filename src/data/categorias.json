@@ -1,0 +1,50 @@
+[
+    {
+        "codigo": 0,
+        "categoria": "Casa",
+        "total": 200.00,
+        "percentual": 10
+    },
+    {
+        "codigo": 1,
+        "categoria": "Transporte",
+        "total": 150,
+        "percentual": 10
+    },
+    {
+        "codigo": 2,
+        "categoria": "Refeição",
+        "total": 300,
+        "percentual": 10
+    },
+    {
+        "codigo": 3,
+        "categoria": "Roupas",
+        "total": 500,
+        "percentual": 10
+    },
+    {
+        "codigo": 4,
+        "categoria": "Educação",
+        "total": 250,
+        "percentual": 10
+    },
+    {
+        "codigo": 5,
+        "categoria": "Lazer",
+        "total": 123,
+        "percentual": 10
+    },
+    {
+        "codigo": 6,
+        "categoria": "Serviços",
+        "total": 154,
+        "percentual": 10
+    },
+    {
+        "codigo": 7,
+        "categoria": "Vários",
+        "total": 400,
+        "percentual": 30
+    }
+]
