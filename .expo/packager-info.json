@@ -1,10 +1,19 @@
 {
   "devToolsPort": 19002,
+<<<<<<< HEAD
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
   "expoServerNgrokUrl": null,
   "packagerNgrokUrl": null,
   "ngrokPid": null,
+=======
+  "expoServerPort": 19000,
+  "packagerPort": 19005,
+  "packagerPid": 31011,
+  "expoServerNgrokUrl": "https://2i-5cw.vscavalheiro.megahack.exp.direct",
+  "packagerNgrokUrl": "https://packager.2i-5cw.vscavalheiro.megahack.exp.direct",
+  "ngrokPid": 31037,
+>>>>>>> ab10c9345c950c15ef1ee4c75045294fdf4bb671
   "webpackServerPort": null
 }

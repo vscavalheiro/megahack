@@ -6,7 +6,8 @@ import ItemGasto from '../../components/ItemGasto/itemGasto';
 
 const Gastos = () => {
     return (
-        <View style={styles.page}>
+        <View style={styles.cabecalho}>
+            <Text style={styles.titulo_cabecalho}>Lista de gastos</Text>
             <ItemGasto />
         </View>
     )
