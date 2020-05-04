@@ -6,7 +6,7 @@ import styles from './styles';
 const AvaliacaoTarefa = (props) => {
     return(
         <Fragment>
-            <Text style = {styles.nota}>Nota: </Text>
+            <Text style = {styles.nota}>Nota: {props.value}</Text>
             <View style = {styles.slider}> 
                 <Text style = {styles.texto}>0</Text>
                     <View>
