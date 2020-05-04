@@ -32,7 +32,19 @@ const styles = StyleSheet.create({
 
     texto: {
         color: "#ffffff"
-    }
+    }, 
+
+    next: {
+        color: "#ffffff",
+        marginBottom:5,
+        backgroundColor:COLORS.BLUE_4,
+        padding: 10,
+        alignSelf: 'flex-start',
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: '#ffffff',
+    },
+
 })
 
 export default styles;

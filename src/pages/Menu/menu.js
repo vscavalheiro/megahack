@@ -25,7 +25,8 @@ const Texto = (props) => {
           return (
                 <Fragment>
                     <Home />
-                    <NavBar f_setSecaoMenu={handleSetSecaoMenu}
+                    <NavBar
+                    f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
                 </Fragment> 
@@ -33,7 +34,10 @@ const Texto = (props) => {
         case 1:
             return (
                 <Fragment>
-                    <Gastos />
+                    <Gastos
+                    dataGastos={props.dataGastos}
+                    f_setGastos={props.f_setGastos}
+                    />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
@@ -52,6 +56,7 @@ const Texto = (props) => {
             return (
                 <Fragment>
                     <Chat
+                    dataGastos={props.dataGastos}
                     dataCadastro={props.dataCadastro}
                     dataRobo={props.dataRobo}
                     />

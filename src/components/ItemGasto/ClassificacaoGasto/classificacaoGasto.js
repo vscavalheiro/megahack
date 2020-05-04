@@ -14,7 +14,7 @@ import styles from './styles';
 
 const ClassificacaoGasto = (props) => {
 
-    const [selected, setSelected] = useState(0);
+    const [selected, setSelected] = useState(props.categoria);
 
     return (
         <View style = {styles.container} >
