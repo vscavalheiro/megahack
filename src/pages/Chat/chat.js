@@ -31,6 +31,23 @@ const Chat = (props) => {
         message: 'O que você quer saber hoje?',
         trigger: '3'
       },
+      {
+        id: 'second_request',
+        message: 'O que você quer saber mais?',
+        trigger: '3'
+      },
+      {
+        id: 'mais',
+        message: 'Quer saber mais alguma coisa?',
+        trigger: 'repete'
+      },
+      {
+        id: 'repete',
+        options: [
+          { value: 1, label: 'Não', end: true },
+          { value: 2, label: 'Sim', trigger: 'second_request' },
+        ],
+      },
 
     {
       id: '3',
@@ -77,7 +94,7 @@ const Chat = (props) => {
     {
         id: 'comprador',
         message: 'Sim',
-        end: true,
+        trigger: 'mais',
      },
   ];
 

@@ -19,6 +19,71 @@ export default function App() {
   const [ secaoApp, setSecaoApp ] = useState(inicioSecaoApp); 
   const [ dataCadastro, setDataCadastro ] = useState({}); 
   const [ dataRobo, setDataRobo ] = useState({}); 
+  const [ gastos, setGastos] = useState([
+    {
+        id: 0,
+        titulo: "Saia",
+        dia: "02",
+        mes: "05",
+        categoria: "0",
+        nota: 5,
+        preco: "100,00",
+        isAvaliado: false
+    }, 
+
+    {
+        id: 1,
+        titulo: "Beto Carreiro",
+        dia: "02",
+        mes: "05",
+        categoria: "0",
+        nota: 5,
+        preco: "800,00",
+        isAvaliado: false
+    },
+
+    {
+        id: 2,
+        titulo: "Colégio do filho",
+        dia: "02",
+        mes: "05",
+        categoria: "0",
+        nota: 5,
+        preco: "500,00",
+        isAvaliado: false
+    },
+
+    {
+        id: 3,
+        titulo: "Obra do quarto",
+        dia: "02",
+        mes: "05",
+        categoria: "0",
+        nota: 5,
+        preco: "100,00",
+        isAvaliado: false
+    }
+])
+
+const handleSetGastos = (idGasto, nota, categoria) => {
+    let newGastos = gastos
+    gastos.forEach((item,index) => 
+        {
+            if(item.id == idGasto) {
+                let itemAlterado = item
+
+                item.nota = nota;
+                item.categoria = categoria;
+                item.isAvaliado = true;
+
+                newGastos[index] = itemAlterado
+                setGastos(newGastos)
+            }
+        }
+    );
+    
+    console.log(gastos);
+}
 
   const handleSetSecaoApp = (num) => {
     setSecaoApp(num)
@@ -49,6 +114,8 @@ export default function App() {
     case MENU_PAGE:
       return (
         <Menu
+          f_setGastos={handleSetGastos}
+          dataGastos={gastos}
           dataCadastro={dataCadastro}
           dataRobo={dataRobo}
           />
