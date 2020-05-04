@@ -24,7 +24,10 @@ const Texto = (props) => {
         case 0:
           return (
                 <Fragment>
-                    <Home dataCadastro={props.dataCadastro}/>
+                    <Home 
+                        dataCadastro={props.dataCadastro}
+                        dataGastos = {props.dataGastos} 
+                    />
                     <NavBar
                     f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}

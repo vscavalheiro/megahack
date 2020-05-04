@@ -11,7 +11,10 @@ const Home = (props) => {
             <View style={styles.cabecalho}>
                 <Text style={styles.titulo_cabecalho}>Home</Text>
             </View>
-            <UserView dataCadastro={props.dataCadastro} />
+            <UserView 
+                dataCadastro={props.dataCadastro}
+                dataGastos = {props.dataGastos}
+            />
         </Fragment>
     )
 
