@@ -34,9 +34,6 @@ const styles = StyleSheet.create({
     popup: {
         borderRadius:12,
         backgroundColor:COLORS.GREY_1,
-        marginTop: 30,
-        marginHorizontal: 10
-        
     },
     popupHeader: {
         borderTopStartRadius:12,
