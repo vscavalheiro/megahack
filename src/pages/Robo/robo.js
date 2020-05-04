@@ -46,7 +46,7 @@ const Robo = (props) => {
                 <View style={styles.roboSelector}>
 
                     <View style={styles.intro}>
-                        <Text style={styles.textoIntro}>Olá, vou te apresentar ao seu novo amigo, ele vai te dar dicas, ajudar você a organizar seus gastos e te acompanhar nessa nova jornada.</Text>
+                        <Text style={styles.textoIntro}>Olá {props.nome}, vou te apresentar ao seu novo amigo, ele vai te dar dicas, ajudar você a organizar seus gastos e te acompanhar nessa nova jornada.</Text>
                         <Text style={styles.textoIntro}>Agora, digite o nome que você quer dar pra ele !!</Text>
                     </View>
                     
