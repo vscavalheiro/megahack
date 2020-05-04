@@ -3,7 +3,7 @@ import COLORS from '../../themes/colors.js'
 
 const styles = StyleSheet.create({
     page: {
-        padding: 40,
+        padding: 30,
     },
     cabecalho: {
         backgroundColor: COLORS.GREY_1,  
