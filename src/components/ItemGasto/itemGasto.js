@@ -39,7 +39,7 @@ const ItemGasto = (props) => {
                 </View>
                     
                 <View style = {styles.valor}>
-                    <Text style = {styles.texto}>{`R$ ${props.preco}`}</Text>
+                    <Text style = {styles.texto}>{`R$ ${props.preco.toFixed(2)}`}</Text>
                 </View>
             </TouchableOpacity>
 

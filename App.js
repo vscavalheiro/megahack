@@ -27,7 +27,7 @@ export default function App() {
         mes: "05",
         categoria: "0",
         nota: 5,
-        preco: "100,00",
+        preco: 100.00,
         isAvaliado: false
     }, 
 
@@ -38,7 +38,7 @@ export default function App() {
         mes: "05",
         categoria: "0",
         nota: 5,
-        preco: "800,00",
+        preco: 800.00,
         isAvaliado: false
     },
 
@@ -49,7 +49,7 @@ export default function App() {
         mes: "05",
         categoria: "0",
         nota: 5,
-        preco: "500,00",
+        preco: 500.00,
         isAvaliado: false
     },
 
@@ -60,7 +60,7 @@ export default function App() {
         mes: "05",
         categoria: "0",
         nota: 5,
-        preco: "100,00",
+        preco: 100.00,
         isAvaliado: false
     }
 ])

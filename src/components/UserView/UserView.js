@@ -1,13 +1,12 @@
-import React, {Fragment, useState} from 'react';
-import { Text, View, TouchableOpacity, ScrollView } from 'react-native'
+import React from 'react';
+import { ScrollView } from 'react-native'
 import styles from './styles'
 import DataCategorias from "../../data/categorias.json"
-import COLORS from '../../themes/colors';
 import Usuario from './Usuario/usuario'
 import GastosTotais from './GastosTotais/gastosTotais'
+import Grafico from './Grafico/grafico'
 
-const UserView = props => {
-  
+const UserView = props => {  
     return (
         <ScrollView style={{marginBottom:60}}>
             <Usuario 
@@ -15,7 +14,8 @@ const UserView = props => {
                 sobrenome = {props.dataCadastro.sobrenome}
                 renda = {props.dataCadastro.renda}
             />
-            <GastosTotais listaCategorias = {DataCategorias} />
+            <GastosTotais listaCategorias = {DataCategorias} dataGastos = {props.dataGastos} />
+            <Grafico dataGastos = {props.dataGastos} />
         </ScrollView>    
     )
 }
