@@ -10,11 +10,24 @@ Nickolas,
 Rafael, 
 Vitor
 
-1 - Instale uma versão atualizada no Node Js
-2 - Se vc não tem o expo instalado. Voce pode enconrtar as informações no site da expo: "https://expo.io/learn"
-    2.1 - npm install expo-cli --global
-3 - Entre no diretorio do projeto
-4 - De o comando "expo start"
+1 - Instale a versão LTS do Node Js no seu computado (https://nodejs.org/pt-br/download/)r</br>
+2 - Instale uma versão atualizada do Git no seu computador (https://git-scm.com/downloads)</br>
+3 - Se vc não tem o expo instalado. Voce pode enconrtar as informações no site da expo: "https://expo.io/learn"</br>
+    3.1 - execute a seguinte linha de codigo no terminal caso não tenha o expo instalado</br> 
+    ```
+    npm install expo-cli --global
+    ```
+</br> 4- Faça um clone do projeto</br>
+    ```
+    git clone https://github.com/vscavalheiro/megahack.git
+    ```
+</br>5 - Entre no diretorio do projeto</br>
+6 - De o comando "expo start", esse comando deve inivcializar o servidor e abrir uma aba no seu navegador</br>
+    ```
+    expo start
+    ```
+</br>7 - Em seguida, baixe o aplicativo Expo, pode ser na PlayStore (https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) ou na AppleStore</br>
+8 - Depois de baixar o app, faça um scan do QRcode presente na aba aberta do navedador e os app deve ser baixado em seguida.
 
 ------------------------------------------------
 TRABALHANDO COM O GIT:
@@ -34,3 +47,4 @@ TRABALHANDO COM O GIT:
 - De um "git status" novamente. Os arquivos que estiverem verdes serão commitados.
 - De um "git commit -m "Mensagem explicando oq o commit está fazendo" "
 - E por fim, para mandar de fato para o repositório remoto de um "git push"
+
