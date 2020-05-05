@@ -8,7 +8,7 @@ import Gastos from '../../pages/Gastos/gastos'
 import Cards from '../../pages/Cards/cards'
 import Chat from '../../pages/Chat/chat'
 
-const Texto = () => {
+const Texto = (props) => {
 
     // seções do menu
     // 0=home 1=gastos 2=chat 3=cards
@@ -19,12 +19,14 @@ const Texto = () => {
         setSecaoMenu(num)
     }
 
+
     switch (secaoMenu) {
         case 0:
           return (
                 <Fragment>
-                    <Home />
-                    <NavBar f_setSecaoMenu={handleSetSecaoMenu}
+                    <Home dataCadastro={props.dataCadastro}/>
+                    <NavBar
+                    f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
                 </Fragment> 
@@ -32,7 +34,10 @@ const Texto = () => {
         case 1:
             return (
                 <Fragment>
-                    <Gastos />
+                    <Gastos
+                    dataGastos={props.dataGastos}
+                    f_setGastos={props.f_setGastos}
+                    />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
@@ -50,7 +55,11 @@ const Texto = () => {
         case 3:
             return (
                 <Fragment>
-                    <Chat />
+                    <Chat
+                    dataGastos={props.dataGastos}
+                    dataCadastro={props.dataCadastro}
+                    dataRobo={props.dataRobo}
+                    />
                     <NavBar f_setSecaoMenu={handleSetSecaoMenu}
                     currentSecao={secaoMenu}
                     />
